@@ -16,7 +16,7 @@ nav {
 
 .jumbotron {
     height: 500px;
-    background-image: url('../img/Header-bg.jpg');
+    background-image: url('img/Header-bg.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-position: 0 0;
