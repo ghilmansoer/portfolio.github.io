@@ -1,0 +1,123 @@
+html {
+    position: relative;
+}
+
+body {
+    margin-bottom: 80px;
+    margin-top: 50px;
+}
+
+
+
+nav {
+    background-color: #043F9F;
+}
+
+
+.jumbotron {
+    height: 500px;
+    background-image: url('../img/Header-bg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 0;
+    overflow: hidden;
+}
+
+.jumbotron p,
+.jumbotron h1 {
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+
+hr {
+    width: 220px;
+    margin-bottom: 50px;
+    border-top: 3px solid #C0C1C1;
+}
+
+section {
+    min-height: 500px;
+}
+
+.about {
+    padding-top: 40px;
+    padding-bottom: 75px;
+}
+
+.pKiri,
+.pKanan {
+    opacity: 0;
+    transform: translate(-50px, 0) rotate(90deg);
+    transition: 1s;
+}
+
+.pKanan {
+    transform: translate(50px, 0) rotate(-90deg);
+}
+
+.pKiri.pMuncul,
+.pKanan.pMuncul {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.portfolio {
+    background-color: #eee;
+    margin-top: 30px;
+    padding-top: 40px;
+    padding-bottom: 75px;
+}
+
+.portfolio .img-thumbnail {
+    opacity: 0;
+    transform: translate(0, -40px);
+    transition: .5s;
+}
+
+.portfolio .img-thumbnail.muncul {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.skill {
+    padding-top: 50px;
+    padding-bottom: 75px;
+
+}
+
+.contact {
+    background-color: #eee;
+    padding-top: 40px;
+    padding-bottom: 0;
+    min-height: 900px;
+}
+
+footer {
+    position: absolute;
+    padding-top: 30px;
+    margin-bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #043F9F;
+
+
+}
+
+footer #sosmed {
+    margin-left: 5;
+}
+
+footer p {
+    color: white;
+    font-size: 1em;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: yellow;
+}
